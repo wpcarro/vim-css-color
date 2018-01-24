@@ -26,22 +26,3 @@ call extend( b:css_color_hi,
 	\{'000000':0,'c0c0c0':1,'808080':1,'ffffff':1,'800000':0,'ff0000':0
 	\,'800080':0,'ff00ff':0,'008000':0,'00ff00':1,'808000':0,'ffff00':1
 	\,'000080':0,'0000ff':0,'008080':0,'00ffff':1} )
-
-syn case ignore
-
-syn keyword BG000000 black   contained containedin=@colorableGroup
-syn keyword BGc0c0c0 silver  contained containedin=@colorableGroup
-syn keyword BG808080 gray    contained containedin=@colorableGroup
-syn match   BGffffff "\c\<white\(-\)\@!\>" contained containedin=@colorableGroup
-syn keyword BG800000 maroon  contained containedin=@colorableGroup
-syn keyword BGff0000 red     contained containedin=@colorableGroup
-syn keyword BG800080 purple  contained containedin=@colorableGroup
-syn keyword BGff00ff fuchsia contained containedin=@colorableGroup
-syn keyword BG008000 green   contained containedin=@colorableGroup
-syn keyword BG00ff00 lime    contained containedin=@colorableGroup
-syn keyword BG808000 olive   contained containedin=@colorableGroup
-syn keyword BGffff00 yellow  contained containedin=@colorableGroup
-syn keyword BG000080 navy    contained containedin=@colorableGroup
-syn keyword BG0000ff blue    contained containedin=@colorableGroup
-syn keyword BG008080 teal    contained containedin=@colorableGroup
-syn keyword BG00ffff aqua    contained containedin=@colorableGroup

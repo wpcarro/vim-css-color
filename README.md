@@ -1,4 +1,18 @@
-<h1 align="center">CSS Color</h1>
+<h1 align="center">CSS Color (Fork)</h1>
+
+The original vim-css-color can be found <a href="https://github.com/ap/vim-css-color">here</a></p>
+
+This fork avoids highlighting color names like "red", "blue", "indigo", 
+"purple". Oftentimes these highlighters target variable 
+names like...
+
+```javascript
+let colors = {
+  'red': '#e3342f',
+};
+```
+
+...which I find visually distracting.
 
 <div align="center">
 A very fast, multi-syntax context-sensitive color name highlighter<br>
